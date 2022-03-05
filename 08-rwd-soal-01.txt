@@ -1,0 +1,23 @@
+Apa itu responsive web design ?
+=> merupakan metode untuk membuat sebuah website yang responsive bagi user. jadi web layout yang dibuat dengan metode web responsive design dapat menyesuaikan diri secara otomatis dengan ukuran layar user.
+
+Sebutkan apa saja relative units yang dimiliki oleh CSS?
+=>  1. % = Ukurannya relatif terhadap parent element
+    2. em = Ukurannya relatif terhadap font-size dari elemen saat ini
+    3. rem = Ukurannya relatif terhadap font-size root elemen (<html>).
+    4. ch = Ukurannya mengikuti jumlah karakter (1 karakter sama dengan lebar dari karakter 0 font yang sedang aktif)
+    5. vh = Ukurannya relatif terhadap tinggi viewport (ukuran jendela tau aplikasi), 1vh = 1/100 dari tinggi viewport
+    6. vw = Ukurannya relatif terhadap lebar dari viewport. 1vw = 1/100 lebar viewport
+    7. vmin = Ukurannya relatif terhadap ukuran viewport yang lebih kecil (misalnya diorientasi portrait, lebar akan lebih kecil daripada tinggi). 1vmin = 1/100 dari ukuran viewport yang lebih kecil.
+    8. vmax = Sama dengan vmin, dia akan melihat ukuran viewport yang lebih besar
+    9. x = Ukurannya relatif terhadap tinggi dari karakter "x" kecil font yang sedang aktif.
+
+Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+=> breakpoint merupakan titik yang kita pilih untuk mengubah layout sebuah desaign.
+    breakpoint dapat dibuat menggunakan media query pada css, kita hanya tinggal menambahkan angka breakpoint yang diinginkan misalnya 768px untuk mobile.
+
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+=> kita dapat menggunakan property static, relative, absolute, dan fixed
+
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+=> kita dapat menggunakan property width dan height.
